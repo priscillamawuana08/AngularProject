@@ -40,7 +40,23 @@
     </ul>
     
     </div>
+
+    <div class = "row mr-2 ml-auto">
+        <ul>
+        <li>
+    <button mat-button [matMenuTriggerFor]="menu"  class = "user mt-2 d-flex align-items-center">Product</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Apple</button>
+        <button mat-menu-item>Banana</button>
+        <button mat-menu-item>Orange</button>
+        <button mat-menu-item>Grapes</button>
+      </mat-menu>
+    </li>
+    </ul>
     
+</div>
+
+
 
     
     
