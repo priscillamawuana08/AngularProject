@@ -11,6 +11,24 @@
         <mat-icon>dashboard</mat-icon> Dashboard
     </a>
     
+
+
+
+    <div class = "row mr-2 ml-auto">
+        <ul>
+        <li>
+    <button mat-button [matMenuTriggerFor]="menu"  class = "user mt-2 d-flex align-items-center">Order</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>CreateOder</button>
+        <button mat-menu-item>CancelOrder</button>
+        <button mat-menu-item>ChangeOrder</button>
+        <button mat-menu-item>SatusReportOnOrder</button>
+      </mat-menu>
+    </li>
+    </ul>
+    
+    </div>
+
        <div>
            <ul>
                <li>
@@ -26,20 +44,7 @@
        </div>
     
         
-    <div class = "row mr-2 ml-auto">
-        <ul>
-        <li>
-    <button mat-button [matMenuTriggerFor]="menu"  class = "user mt-2 d-flex align-items-center">Order</button>
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item>CreateOder</button>
-        <button mat-menu-item>CancelOrder</button>
-        <button mat-menu-item>ChangeOrder</button>
-        <button mat-menu-item>SatusReportOnOrder</button>
-      </mat-menu>
-    </li>
-    </ul>
-    
-    </div>
+   
 
     <div class = "row mr-2 ml-auto">
         <ul>
@@ -60,11 +65,11 @@
 
     
     
-    <!-- <a mat-list-item routerLink ="/log-in" routerLinkActive>
+    <a mat-list-item routerLink ="/component/log-in" routerLinkActive>
         <mat-icon>login</mat-icon> Login
     </a>
-    <a mat-list-item routerLink ="/register" routerLinkActive>
+    <a mat-list-item routerLink ="/component/register" routerLinkActive>
         <mat-icon>register</mat-icon> Register
-    </a> -->
+    </a>
     <a mat-list-item><mat-icon>edit</mat-icon> edit</a>
 </mat-nav-list>
