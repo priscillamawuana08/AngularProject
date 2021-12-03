@@ -25,6 +25,7 @@ import { MatListModule } from '@angular/material/list';
 /* Form Module*/
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 /* Components*/
 import { LogInComponent } from './components/log-in/log-in.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -35,6 +36,9 @@ import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
+import { OrderComponent } from './order/order.component';
+import { CustomerComponent } from './customer/customer.component';
+import { StockComponent } from './stock/stock.component';
  
 
 @NgModule({
@@ -48,6 +52,9 @@ import { HomeComponent } from './home/home.component';
     SidenavComponent,
     DashboardComponent,
     HomeComponent,
+    OrderComponent,
+    CustomerComponent,
+    StockComponent,
     
 
   ],

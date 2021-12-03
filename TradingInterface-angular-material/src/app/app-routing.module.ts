@@ -4,6 +4,9 @@ import { HomeComponent } from './home/home.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { RegisterComponent } from './components/register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CustomerComponent } from './customer/customer.component';
+import { OrderComponent } from './order/order.component';
+import { StockComponent } from './stock/stock.component';
 
 
 const routes: Routes = [
@@ -12,6 +15,10 @@ const routes: Routes = [
   { path: 'login', component: LogInComponent },
   { path: 'registration', component: RegisterComponent },
   {path: 'dashboard',component:DashboardComponent},
+  {path: 'customer',component:CustomerComponent},
+  {path: 'order',component:OrderComponent},
+  {path: 'stock',component:StockComponent}
+
 
 ];
 
